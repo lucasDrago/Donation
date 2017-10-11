@@ -1,35 +1,10 @@
+    https://cacoo.com/diagrams/ZXC2A6HPAeNJAXql-9CA31.png
     O site (html, css e java), tem como função ajudar pessoas que precisam de doações em casos de doenças, desastres, 
-  e eventualidade.
-
-
-
-
-
-
-
-
-
-
-
-
-Nome: 
-
-
-
-
-
-Requisitos funcionais:
-*O usuário poderá acessar a plataforma e efetuar cadastro(nome, DT_Nasc, e-mail, local, telefone);
-
-*Poderá acessar seu perfil após o login, e outras abas relacionadas ao Usuário (o layout e as abas serão definidos futuramente);
-
-*Poderá se relacionar com outros usuários (será mostrado algumas informações de um usuário ao outro para que se conheçam melhor);
-
-*Haverá troca de dados entre usuários (principalmente de dados bancários);
-
-
-Requisitos não funcionais:
-
-*Segurança do Site
-
-*
+e eventualidade.
+   Ao fazer o cadastro com todos os dados pedidos, ele tem a opção de solicitar doações ou efetuar doações, além de poder curtir 
+publicações de outras pessoas. O usuario do site pode guardar rascunho de suas proprias publicações na sua lista de desejos, 
+através da opção "favoritar" e também guardar publicações de outros usuarios, para ajudar mais tarde.
+    
+    
+    
+    
