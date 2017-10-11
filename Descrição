@@ -9,10 +9,8 @@ através da opção "favoritar" e também guardar publicações de outros usuari
     
     
 Nome: Donation
- 
- 
- 
- 
+
+Publico alvo: atingidos por desastres, vitimas de comflitos dentre outros necessitados;
  
  Requisitos funcionais:
  *O usuário poderá acessar a plataforma e efetuar cadastro(nome, DT_Nasc, e-mail, local, telefone);
@@ -26,4 +24,6 @@ Nome: Donation
  
  Requisitos não funcionais:
  
- *Segurança do Site
+ *Segurança do Site;
+ 
+ *Tipo de linguagem ultilizada na programação;
