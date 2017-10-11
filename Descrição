@@ -8,3 +8,22 @@ através da opção "favoritar" e também guardar publicações de outros usuari
     
     
     
+Nome: Donation
+ 
+ 
+ 
+ 
+ 
+ Requisitos funcionais:
+ *O usuário poderá acessar a plataforma e efetuar cadastro(nome, DT_Nasc, e-mail, local, telefone);
+ 
+ *Poderá acessar seu perfil após o login, e outras abas relacionadas ao Usuário (o layout e as abas serão definidos futuramente);
+ 
+ *Poderá se relacionar com outros usuários (será mostrado algumas informações de um usuário ao outro para que se conheçam melhor);
+ 
+ *Haverá troca de dados entre usuários (principalmente de dados bancários);
+ 
+ 
+ Requisitos não funcionais:
+ 
+ *Segurança do Site
