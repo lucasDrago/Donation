@@ -1,4 +1,35 @@
     O site (html, css e java), tem como função ajudar pessoas que precisam de doações em casos de doenças, desastres, 
   e eventualidade.
- 
-kojpk
+
+
+
+
+
+
+
+
+
+
+
+
+Nome: 
+
+
+
+
+
+Requisitos funcionais:
+*O usuário poderá acessar a plataforma e efetuar cadastro(nome, DT_Nasc, e-mail, local, telefone);
+
+*Poderá acessar seu perfil após o login, e outras abas relacionadas ao Usuário (o layout e as abas serão definidos futuramente);
+
+*Poderá se relacionar com outros usuários (será mostrado algumas informações de um usuário ao outro para que se conheçam melhor);
+
+*Haverá troca de dados entre usuários (principalmente de dados bancários);
+
+
+Requisitos não funcionais:
+
+*Segurança do Site
+
+*
