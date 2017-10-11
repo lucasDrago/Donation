@@ -1,18 +1,13 @@
     https://cacoo.com/diagrams/ZXC2A6HPAeNJAXql-9CA31.png
+    
     O site (html, css e java), tem como função ajudar pessoas que precisam de doações em casos de doenças, desastres, 
 e eventualidade.
    Ao fazer o cadastro com todos os dados pedidos, ele tem a opção de solicitar doações ou efetuar doações, além de poder curtir 
 publicações de outras pessoas. O usuario do site pode guardar rascunho de suas proprias publicações na sua lista de desejos, 
 através da opção "favoritar" e também guardar publicações de outros usuarios, para ajudar mais tarde.
-    
-    
-    
-    
-Nome: Donation
- 
- 
- 
- 
+        
+Nome: Donation 
+Público alvo:Necessitados, vitimas de desastres naturais ou por conflitos humanos.
  
  Requisitos funcionais:
  *O usuário poderá acessar a plataforma e efetuar cadastro(nome, DT_Nasc, e-mail, local, telefone);
