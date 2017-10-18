@@ -1,29 +1,36 @@
     https://cacoo.com/diagrams/ZXC2A6HPAeNJAXql-9CA31.png
     O site (html, css e java), tem como função ajudar pessoas que precisam de doações em casos de doenças, desastres, 
 e eventualidade.
+
+Descrição de funcionamento:
+   O usuário vai se cadastrar informando os dados necessários para a criação da sua Conta/Perfil (como poderá haver o caso de 
+doação de dinnheiro, a inserção deste dado na criação da "Conta" poderá ser feita na hora ou quando o usuário desejar).
    Ao fazer o cadastro com todos os dados pedidos, ele tem a opção de solicitar doações ou efetuar doações, além de poder curtir 
 publicações de outras pessoas. O usuario do site pode guardar rascunho de suas proprias publicações na sua lista de desejos, 
 através da opção "favoritar" e também guardar publicações de outros usuarios, para ajudar mais tarde.
+   haverá a manutenção entre Postes, e o que será o método de ajuda (o serviço prestado de usuário à usuário),
     
-    
-    
-    
+=================================================================================================================================
+
 Nome: Donation
 
 Publico alvo: atingidos por desastres, vitimas de comflitos dentre outros necessitados;
  
  Requisitos funcionais:
  *O usuário poderá acessar a plataforma e efetuar cadastro(nome, DT_Nasc, e-mail, local, telefone);
- 
  *Poderá acessar seu perfil após o login, e outras abas relacionadas ao Usuário (o layout e as abas serão definidos futuramente);
- 
  *Poderá se relacionar com outros usuários (será mostrado algumas informações de um usuário ao outro para que se conheçam melhor);
- 
  *Haverá troca de dados entre usuários (principalmente de dados bancários);
+ *O usuário poderá solicitar ajuda que será validado como verdadeiro ou não (para que não haja fraude e ou qualquer forma ilicita);
  
+=================================================================================================================================
  
  Requisitos não funcionais:
  
  *Segurança do Site;
+ 
+ *Evitar a divulgação de dados classificados como impróprios ou desnecessários;
+ 
+ *rodar em computador e notebook
  
  *Tipo de linguagem utilizada na programação;
