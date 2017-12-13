@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package donation;
+
 
 /**
  *
  * @author aluno
  */
-public class Lista_de_desejos {
+public class ListadeDesejos {
 
     /**
      * @return the rascunho
