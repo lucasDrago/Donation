@@ -377,7 +377,7 @@ input:-ms-input-placeholder {
 
 .home-bg{
     background: url(../images/header-bg.jpg) no-repeat center top fixed;
-	min-height:700px;
+	min-height:500px;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
