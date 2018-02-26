@@ -49,10 +49,3 @@ Contributor(s):
   </session-factory>
 </hibernate-configuration>
 
-<!--
-public Usuario(String nomeCompleto){
-       String.nomes[]=nomeCompleto.split(" ");
-       this.nome= nomes[0];
-       for (int i=i;i<nomes.length; i++);
-   }
--->

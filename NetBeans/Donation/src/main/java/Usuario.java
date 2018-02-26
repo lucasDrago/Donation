@@ -1,3 +1,9 @@
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,6 +17,15 @@
  */
 public class Usuario {
 
+    
+    
+@Entity
+@Table(name "Username")
+public Usuario(String nomeCompleto) implement serializable{
+       String.nomes[]=nomeCompleto.split(" ");
+       this.nome= nomes[0];
+       for (int i=i;i<nomes.length; i++);ub
+   }
     /**
      * @return the cod_usuario
      */
@@ -235,6 +250,11 @@ public class Usuario {
         this.conta = conta;
     }
     
+    
+  
+    @Id
+    @GeneratedValue
+    @Colun(name="cod_usuario")
     private String cod_usuario;
     private String email;    
     private String nome_completo;
