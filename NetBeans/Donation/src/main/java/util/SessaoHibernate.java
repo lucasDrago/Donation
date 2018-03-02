@@ -5,9 +5,8 @@
  */
 package util;
 
-
-import Site.Telefone;
-import Site.Usuario;
+import site.Telefone;
+import site.Usuario;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
@@ -26,7 +25,6 @@ public class SessaoHibernate {
             cfg.configure("hibernate.cfg.xml");
             cfg.addAnnotatedClass(Usuario.class);
             cfg.addAnnotatedClass(Telefone.class);
-            cfg.addAnnotatedClass(Usuario.class);
              sf = cfg.buildSessionFactory();
         }
        

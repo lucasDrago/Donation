@@ -1,11 +1,17 @@
-package Site;
+package site;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+@Entity
 
 /**
  *
@@ -55,6 +61,11 @@ public class Telefone {
         this.ddd = ddd;
     }
     
+    @Id
+    @GeneratedValue
+    @Column(name="cod_telefone")
+    @SequenceGenerator(name="seq_gen", sequenceName="sq_cod_telefone", allocationSize = 1)
+
     private int numero;
     private int cod_pais;
     private int ddd;

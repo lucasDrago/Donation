@@ -1,36 +1,61 @@
-package Site;
+package site;
 
-
-
-/**import javax.persistence.Entity;
+import java.io.Serializable;
+import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
-**/
+
+@Entity
+@Table(name = "usuario")
+/**
+ * import javax.persistence.Entity; import javax.persistence.GeneratedValue;
+ * import javax.persistence.Id; import javax.persistence.Table;
+ *
+ */
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-
 /**
  *
  * @author aluno
  */
-public class Usuario {
+public class Usuario implements Serializable{
 
-    
-    
-/**@Entity
-@Table(name "Username")
-public Usuario(String nomeCompleto) implement serializable{
-       String.nomes[]=nomeCompleto.split(" ");
-       this.nome= nomes[0];
-       for (int i=i;i<nomes.length; i++);ub 
-   }
+    public Usuario (){
+    }
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_gen")
+    @SequenceGenerator(name="seq_gen", sequenceName="public2.usuario_cod_usuario_seq", allocationSize = 1)
+    @Column(name = "cod_usuario")
+    private String cod_usuario;
+    private String email;
+    private String nome_completo;
+    private String nome_social;
+    private int cpf;
+    private int rg;
+    private String senha;
+    private String tipo_logradouro;
+    private String complemento;
+    private String bairro;
+    private String municipio;
+    private String uf;
+    private int cep;
+    private String banco;
+    private int agencia;
+    private String conta;
+
     /**
-     * @return the cod_usuario
+     * @return 
+     * @Entity @Table(name "Username") public Usuario(String nomeCompleto)
+     * implement serializable{ String.nomes[]=nomeCompleto.split(" ");
+     * this.nome= nomes[0]; for (int i=i;i<nomes.length; i++);ub } /** @return
+     * the cod_usuario
      */
     public String getCod_usuario() {
         return cod_usuario;
@@ -252,28 +277,5 @@ public Usuario(String nomeCompleto) implement serializable{
     public void setConta(String conta) {
         this.conta = conta;
     }
-    
-    
-  
-   /** @Id
-    @GeneratedValue
-    @Colun(name="cod_usuario")
-    **/
-    private String cod_usuario;
-    private String email;    
-    private String nome_completo;
-    private String nome_social;
-    private int cpf;
-    private int rg;
-    private String senha;
-    private String tipo_logradouro;
-    private String complemento;
-    private String bairro;
-    private String municipio;
-    private String uf;
-    private int cep;
-    private String banco;
-    private int agencia;
-    private String conta;
 
 }
