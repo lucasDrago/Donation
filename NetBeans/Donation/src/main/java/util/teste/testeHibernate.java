@@ -24,9 +24,23 @@ public class testeHibernate {
         Usuario user = new Usuario();
         user.setEmail("sonserina.nao.drago@gmail.com");
         user.setNome_completo("Lucas");
-        user.setSenha("123");
         user.setNome_social("Sr_drago");
-
+        user.setSenha("123");
+       /** user.setRg(Integer.parseInt(request.getParameter("rg")));
+        user.setCpf(Integer.parseInt(request.getParameter("cpf")));**/
+        
+        user.setCpf("12345678925");
+        user.setRg("999999999");        
+        user.setTipo_logradouro("apartamento");
+        user.setComplemento("terceiro andar");
+        user.setBairro("mathias");
+        user.setMunicipio("Quissamã");
+        user.setUf("RJ");
+        user.setCep("28735000");
+        user.setBanco("Brasil");
+        user.setAgencia("12345");
+        user.setConta("12345");
+        
         System.out.println("SALVANDO USUARIO");
         Transaction tx = sessao.beginTransaction();
         sessao.save(user);

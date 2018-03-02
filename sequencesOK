@@ -1,0 +1,4 @@
+﻿ALTER TABLE public2.telefone ALTER COLUMN cod_telefone SET DEFAULT nextval('public2.telefone_cod_telefone_seq'::regclass);
+ALTER TABLE public2.publicacao ALTER COLUMN cod_publicacao SET DEFAULT nextval('public2.publicacao_cod_publicacao_seq'::regclass);
+ALTER TABLE public2.usuario ALTER COLUMN cod_usuario SET DEFAULT nextval('public2.usuario_cod_usuario_seq'::regclass);
+ALTER TABLE public2.lista_de_desejos ALTER COLUMN cod_lista SET DEFAULT nextval('public2.lista_de_desejos_cod_lista_seq'::regclass);
