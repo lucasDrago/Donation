@@ -58,7 +58,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-  color: #57b846;
+  color: #FA8072;
 }
 
 /*---------------------------------------------*/
@@ -70,7 +70,7 @@ p {
 	font-family: Raleway-Regular;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: #FA8072;
 	margin: 0px;
 }
 
@@ -204,7 +204,7 @@ iframe {
 .login100-form-title {
   font-family: Raleway-Medium;
   font-size: 30px;
-  color: #555555;
+  color: #FA8072
   line-height: 1.2;
   text-transform: uppercase;
   text-align: left;
@@ -332,7 +332,7 @@ iframe {
 .label-checkbox100 {
   font-family: Raleway-Regular;
   font-size: 13px;
-  color: #999999;
+  color: #FA8072;
   line-height: 1.4;
 
   display: block;
@@ -370,7 +370,7 @@ iframe {
 }
 
 .input-checkbox100:checked + .label-checkbox100::before {
-  color: #57b846;
+  color: #FA8072;
 }
 
 
@@ -412,7 +412,7 @@ iframe {
 }
 
 .login100-form-btn:hover {
-  background-color: #57b846;
+  background-color: #FA8072;
 }
 
 
@@ -432,7 +432,7 @@ iframe {
   position: absolute;
   max-width: 70%;
   background-color: #fff;
-  border: 1px solid #c80000;
+  border: 1px solid #FA8072;
   border-radius: 3px;
   padding: 4px 25px 5px 10px;
   top: 50%;
@@ -445,7 +445,7 @@ iframe {
   pointer-events: none;
 
   font-family: Raleway-Medium;
-  color: #c80000;
+  color: #FA8072;
   font-size: 14px;
   line-height: 1.4;
   text-align: left;
@@ -464,7 +464,7 @@ iframe {
   font-family: FontAwesome;
   display: block;
   position: absolute;
-  color: #c80000;
+  color: #FA8072;
   font-size: 18px;
   top: 50%;
   -webkit-transform: translateY(-50%);

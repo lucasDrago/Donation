@@ -29,7 +29,7 @@ public class testeHibernate {
        /** user.setRg(Integer.parseInt(request.getParameter("rg")));
         user.setCpf(Integer.parseInt(request.getParameter("cpf")));**/
         
-        user.setCpf("12345678925");
+        /**user.setCpf("12345678925");
         user.setRg("999999999");        
         user.setTipo_logradouro("apartamento");
         user.setComplemento("terceiro andar");
@@ -39,7 +39,7 @@ public class testeHibernate {
         user.setCep("28735000");
         user.setBanco("Brasil");
         user.setAgencia("12345");
-        user.setConta("12345");
+        user.setConta("12345");**/
         
         System.out.println("SALVANDO USUARIO");
         Transaction tx = sessao.beginTransaction();
